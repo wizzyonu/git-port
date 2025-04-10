@@ -1,0 +1,229 @@
+/* global styles and variables */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+    --Strong-Cyan-t: hsla(171, 66%, 44%, 0.33);
+  --LightBlue-t: hsla(233, 100%, 69%, 0.33);
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 50%);
+  --Grayish-Blue: hsla(202, 11%, 66%, 0.233);
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+h2,
+h3,
+h4,
+p {
+  color: var(--Dark-Grayish-Blue);
+}
+body{
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+.header,
+.f-top {
+  max-width: 680px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+/* header tyling */
+.header {
+  max-width: 680px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+.heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 50px 0 20px 0;
+}
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+.btn {
+  background-color: var(--Strong-Cyan);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px 3px var(--Strong-Cyan-t);
+  border: none;
+}
+.btn:hover{
+    opacity: 70%;
+}
+.btn:last-child {
+  background-color: var(--LightBlue);
+  box-shadow: 2px 2px 5px 2px var(--LightBlue-t);
+}
+.f-top h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.f-button {
+  display: flex;
+  gap: 100px;
+}
+.f-button figure {
+  max-width: 700px;
+  width: 100%;
+}
+.f-button figure img {
+  width: 100%;
+  height: auto;
+}
+.f-right {
+  max-width: 400px;
+  width: 100%;
+}
+.f-right1,
+.f-right2,
+.f-right3 {
+  margin: 60px 0;
+}
+.f-right h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.section1,
+.section2 {
+  margin: 100px auto;
+}
+.section2 {
+  text-align: center;
+}
+.section2 h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.section2 p {
+  font-size: 1rem;
+}
+.section2 figure {
+  max-width: 800px;
+  width: 100%;
+  margin: 100px auto 20px auto;
+}
+.section2 figure img {
+  width: 100%;
+}
+.section3 {
+  text-align: center;
+  margin: 100px auto;
+}
+.heading3 {
+  font-size: 1.8rem;
+
+  margin: 50px 0 20px 0;
+}
+.para3 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.s-bottom {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.s-bottom h4 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+.s-bottom figure {
+  height: 37px;
+}
+
+.s-bottom figure img {
+  height: 100%;
+}
+.s-bottom div {
+  max-width: 400px;
+}
+.section4 {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 120px auto;
+}
+.section5 {
+  margin: 50px auto;
+}
+.t-top {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.t-top h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: var(--Grayish-Blue);
+  display: grid;
+  grid-template-columns: minmax(70px, 150px) minmax(200px, 500px) minmax(
+      200px,
+      300px
+    );
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  gap: 80px;
+}
+.social {
+  justify-self: right;
+  display: flex;
+  gap: 20px;
+}
+
+.footer figure {
+  width: 50px;
+}
+.footer figure img {
+  width: 100%;
+}
+.footer a {
+  text-decoration: none;
+}
+.navlink p{
+    margin-bottom: 15px;
+}
+.navlink:hover p{
+    color: var(--Strong-Cyan);
+}
+.social a{
+  color: var(--Dark-Grayish-Blue);
+}
+
+.social svg:hover{
+  color: var(--Strong-Cyan);
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+/*attribution style starts here*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
