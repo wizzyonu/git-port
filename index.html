@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Parker - Web Developer & Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>I am Emily Parker</h1>
+                <h2>Web Developer + <br>Graphic Designer</h2>
+                <p>Seamlessly blending the worlds of code and creativity as a Web Developer and Graphic Designer, creating captivating digital experiences.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <button class="download-cv">Download CV <i class="fas fa-download"></i></button>
+            </div>
+            <div class="hero-image">
+                <img src="./image.png" alt="Emily Parker">
+            </div>
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="stat-item">
+            <h3>5+</h3>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+            <h3>90+</h3>
+            <p>Projects Completed</p>
+        </div>
+        <div class="stat-item">
+            <h3>105+</h3>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+            <h3>15+</h3>
+            <p>Worldwide Awards</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>My Quality Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>01</h3>
+                <h4>Web Development</h4>
+                <p>Creating robust and scalable web applications using modern technologies and best practices.</p>
+            </div>
+            <div class="service-card">
+                <h3>02</h3>
+                <h4>UI/UX Design</h4>
+                <p>Crafting intuitive user experiences and beautiful interfaces that engage and delight users.</p>
+            </div>
+            <div class="service-card">
+                <h3>03</h3>
+                <h4>Content Creation</h4>
+                <p>Developing compelling content that tells your story and connects with your audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="experience-education">
+            <h2>My Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">2020 - 2023</span>
+                    <h4>Frontend Lead Engineer</h4>
+                    <p>TechCorp Solutions</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">2018 - 2020</span>
+                    <h4>Senior Web Developer</h4>
+                    <p>Digital Innovations</p>
+                </div>
+            </div>
+        </div>
+        <div class="experience-education">
+            <h2>My Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">2014 - 2018</span>
+                    <h4>B.S. Computer Science</h4>
+                    <p>Tech University</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">2012 - 2014</span>
+                    <h4>Associate's Degree</h4>
+                    <p>Design Institute</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="https://placehold.co/50x50" alt="React">
+                <span>React</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://placehold.co/50x50" alt="Node.js">
+                <span>Node.js</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://placehold.co/50x50" alt="Python">
+                <span>Python</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://placehold.co/50x50" alt="Figma">
+                <span>Figma</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-work">
+        <h2>My Recent Works</h2>
+        <div class="work-grid">
+            <div class="work-item">
+                <img src="https://placehold.co/300x200" alt="Project 1">
+                <h4>E-commerce Platform</h4>
+                <p>React, Node.js, MongoDB</p>
+            </div>
+            <div class="work-item">
+                <img src="https://placehold.co/300x200" alt="Project 2">
+                <h4>Social Media Dashboard</h4>
+                <p>Vue.js, Firebase</p>
+            </div>
+            <div class="work-item">
+                <img src="https://placehold.co/300x200" alt="Project 3">
+                <h4>Portfolio Website</h4>
+                <p>HTML5, CSS3, JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's work together!</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Emily Parker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
